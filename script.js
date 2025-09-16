@@ -4,9 +4,9 @@ function insert_Row() {
 	  const table=document.getElementById("sampleTable")
       const tr=document.createElement("tr")
       const td1=document.createElement("td")
-      td1.innerText=`NewCell${count++}`
+      td1.innerText=`New Cell${count++}`
       const td2=document.createElement("td")
-      td2.innerText=`NewCell${count}`
+      td2.innerText=`New Cell${count}`
       tr.append(td1,td2)
       table.insertBefore(tr,table.firstChild)
   
